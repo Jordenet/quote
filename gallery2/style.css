@@ -127,7 +127,7 @@ body {
     display: none;
     background-color: rgba(0, 0, 0, 0.65);
 }
-.gallery__item:hover:after,
+.gallery__item:hover::after,
 .gallery__item:hover .image__title{
     display: block;
 }
